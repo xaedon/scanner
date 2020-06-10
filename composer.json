@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "league/csv": "^9.5",
+        "xaedon/scanner":"^1.0"
+    }
+}
