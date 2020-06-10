@@ -1,7 +1,35 @@
 {
-    "require": {
-        "guzzlehttp/guzzle": "^6.5",
-        "league/csv": "^9.5",
-        "xaedon/scanner":"^1.0"
+  "name":"xaedon/scanner",
+  "description": "Scan Urls",
+  "keywords": ["url","scanner","csv"],
+  "homepage": "http://example.com",
+  "license":"MIT",
+  "authors": [{
+    "name":"xaedon",
+    "homepage": "https://github.com/xaedon",
+    "role": "Developer"
+  }],
+  "support": {
+
+  },
+  "require": {
+    "php":">=5.4",
+    "guzzlehttp/guzzle":"~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit":"~4.3",
+  },
+  "suggest": {
+    "league/csv":"~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "xaedon\\Scanner\\":"src/"
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    }
+  },
 }
